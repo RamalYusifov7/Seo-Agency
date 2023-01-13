@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="shortcut icon" href="assets/css-dep/img/logo.ico"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="assets/css/plugins.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <!-- add menu here -->
+<div
+class="about-us-bg"
+style="
+  background-image: url(assets/img/backgrounds/about-us-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+"
+>
+<!-- Start of main header -->
+<header class="main-header">
+    <div class="custom-container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="mh-left d-flex align-items-center">
+                <div class="logo-wrapper">
+                    <div class="logo-white">
+                        <a href="index.html"><img src="assets/img/resources/logo-white.png" alt=""></a>
+                    </div>
+                </div>
+                <nav class="main-navbar">
+                    <ul class="menu-list m-0 p-0">
+                        <li class="dropdown d-inline-block">
+                         <a href="our-services.html">Services</a>
+                        </li>
+                        <li class="d-inline-block">
+                            <a href="case-studies.html">Case Studies</a>
+                        </li>
+                        <li class="d-inline-block">
+                            <a href="about-us.html">About Us</a>
+                        </li>
+                        <li class="d-inline-block">
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li class="d-inline-block">
+                            <a href="contacts.html">Contacts</a>
+                        </li>
+                    </ul>
+                    <button class="custom-menubar"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+            <div class="mh-right d-none d-xl-block">
+                <a href="" class="custom-btn custom-btn-solid custom-btn-lg">
+                    Talk to a human
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-start custom-sidebar" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header custom-sidebar-header">
+          <div class="logo-wrapper">
+            <div class="logo-white">
+                <a href="index.html"><img src="assets/img/resources/logo-white.png" alt=""></a>
+            </div>
+        </div>
+          <button type="button"  data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="offcanvas-body">
+          <nav class="mobile-navbar">
+            <ul class="mobile-menu-list list-unstyled m-0 p-0">
+                <li class="dropdown">
+                 <a href="our-services.html">Services</a>
+                </li>
+                <li>
+                    <a href="case-studies.html">Case Studies</a>
+                </li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="contacts.html">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+      </div>
+</header>
+<!-- End of Main header -->
+<section class="page-header text-center">
+  <div class="custom-container-fluid">
+    <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+      <ol class="breadcrumb custom-breadcrumb justify-content-center">
+        <li class="breadcrumb-item">
+          <a href="index.html"
+            ><i class="fa-sharp fa-solid fa-house"></i
+          ></a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">
+          About us
+        </li>
+      </ol>
+    </nav>
+    <h1 class="page-title text-white m-0">Careers at Createx Agency</h1>
+    <div class="page-desc">
+      We’re looking for extraordinary talents! If you're passionate about
+      SEO and digital marketing, we want to hear from you.
+    </div>
+    <div class="blog-header__bottom">
+      <div class="search-lg position-relative">
+        <label for="email">Email</label>
+        <input
+          class="custom-input input-lg"
+          type="email"
+          id="text"
+          placeholder="Search the blog"
+        />
+        <button
+          class="search-btn custom-btn custom-btn-lg custom-btn-solid position-absolute"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<!--Start of About us jobs -->
+<section class="about-us-jobs">
+<div class="custom-container">
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="row single-job-wrapper">
+      <div class="col-7 col-sm-8">
+        <div class="single-job d-flex">
+          <div class="accordion-btns">
+            <button
+              class="accordion-btn collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour"
+              aria-expanded="false"
+              aria-controls="flush-collapseFour"
+            >
+              <img src="assets/css/icons/plus-icon.svg" alt="" />
+              <img src="assets/css/icons/minus.svg" alt="" />
+            </button>
+          </div>
+          <div class="job-content">
+            <h4 class="job-title">Digital Marketing Strategist</h4>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="job-desc">
+                Blandit quam eget fames nisl. Vel vestibulum dictum morbi
+                risus. Mauris dictumst vitae convallis aliquam
+                ullamcorper. Quis non non ac massa augue id scelerisque.
+                Egestas eget cursus egestas habitant orci. In posuere
+                tempus, vulputate est, diam arcu.
+              </div>
+              <div class="job-requirements">
+                <div class="job-req-title">Requirements:</div>
+                <ul class="job-req-list">
+                  <li>Vitae luctus et arcu vitae eu tellus orci.</li>
+                  <li>
+                    Vel morbi nunc ullamcorper nisl, quis varius ultricies
+                    blandit.
+                  </li>
+                  <li>Purus cursus nascetur leo diam.</li>
+                  <li>
+                    Nascetur id turpis facilisis faucibus vel, iaculis
+                    etiam.
+                  </li>
+                </ul>
+              </div>
+              <div class="job-responsibilities">
+                <div class="job-resp-title">Responsibilities::</div>
+                <ul class="job-resp-list">
+                  <li>Vitae luctus et arcu vitae eu tellus orci.</li>
+                  <li>
+                    Vel morbi nunc ullamcorper nisl, quis varius ultricies
+                    blandit.
+                  </li>
+                  <li>Purus cursus nascetur leo diam.</li>
+                  <li>
+                    Nascetur id turpis facilisis faucibus vel, iaculis
+                    etiam.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-5 col-sm-4">
+        <div class="job-apply-now">
+          <a
+            href="#
+          "
+            class="custom-btn custom-btn-regular custom-btn-outline"
+            >Apply Now</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="row single-job-wrapper">
+      <div class="col-7 col-sm-8">
+        <div class="single-job d-flex">
+          <div class="accordion-btns">
+            <button
+              class="accordion-btn collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              <img src="assets/css/icons/plus-icon.svg" alt="" />
+              <img src="assets/css/icons/minus.svg" alt="" />
+            </button>
+          </div>
+          <div class="job-content">
+            <h4 class="job-title">Sales Executive</h4>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="job-desc">
+                Blandit quam eget fames nisl. Vel vestibulum dictum morbi
+                risus. Mauris dictumst vitae convallis aliquam
+                ullamcorper. Quis non non ac massa augue id scelerisque.
+                Egestas eget cursus egestas habitant orci. In posuere
+                tempus, vulputate est, diam arcu.
+              </div>
+              <div class="job-requirements">
+                <div class="job-req-title">Requirements:</div>
+                <ul class="job-req-list">
+                  <li>Vitae luctus et arcu vitae eu tellus orci.</li>
+                  <li>
+                    Vel morbi nunc ullamcorper nisl, quis varius ultricies
+                    blandit.
+                  </li>
+                  <li>Purus cursus nascetur leo diam.</li>
+                  <li>
+                    Nascetur id turpis facilisis faucibus vel, iaculis
+                    etiam.
+                  </li>
+                </ul>
+              </div>
+              <div class="job-responsibilities">
+                <div class="job-resp-title">Responsibilities::</div>
+                <ul class="job-resp-list">
+                  <li>Vitae luctus et arcu vitae eu tellus orci.</li>
+                  <li>
+                    Vel morbi nunc ullamcorper nisl, quis varius ultricies
+                    blandit.
+                  </li>
+                  <li>Purus cursus nascetur leo diam.</li>
+                  <li>
+                    Nascetur id turpis facilisis faucibus vel, iaculis
+                    etiam.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-5 col-sm-4">
+        <div class="job-apply-now">
+          <a
+            href="#
+          "
+            class="custom-btn custom-btn-regular custom-btn-outline"
+            >Apply Now</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="row single-job-wrapper">
+      <div class="col-7 col-sm-8">
+        <div class="single-job d-flex">
+          <div class="accordion-btns">
+            <button
+              class="accordion-btn collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              <img src="assets/css/icons/plus-icon.svg" alt="" />
+              <img src="assets/css/icons/minus.svg" alt="" />
+            </button>
+          </div>
+          <div class="job-content">
+            <h4 class="job-title">Social Media Content Manager</h4>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="job-desc">
+                Blandit quam eget fames nisl. Vel vestibulum dictum morbi
+                risus. Mauris dictumst vitae convallis aliquam
+                ullamcorper. Quis non non ac massa augue id scelerisque.
+                Egestas eget cursus egestas habitant orci. In posuere
+                tempus, vulputate est, diam arcu.
+              </div>
+              <div class="job-requirements">
+                <div class="job-req-title">Requirements:</div>
+                <ul class="job-req-list">
+                  <li>Vitae luctus et arcu vitae eu tellus orci.</li>
+                  <li>
+                    Vel morbi nunc ullamcorper nisl, quis varius ultricies
+                    blandit.
+                  </li>
+                  <li>Purus cursus nascetur leo diam.</li>
+                  <li>
+                    Nascetur id turpis facilisis faucibus vel, iaculis
+                    etiam.
+                  </li>
+                </ul>
+              </div>
+              <div class="job-responsibilities">
+                <div class="job-resp-title">Responsibilities::</div>
+                <ul class="job-resp-list">
+                  <li>Vitae luctus et arcu vitae eu tellus orci.</li>
+                  <li>
+                    Vel morbi nunc ullamcorper nisl, quis varius ultricies
+                    blandit.
+                  </li>
+                  <li>Purus cursus nascetur leo diam.</li>
+                  <li>
+                    Nascetur id turpis facilisis faucibus vel, iaculis
+                    etiam.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-5 col-sm-4">
+        <div class="job-apply-now">
+          <a
+            href="#
+          "
+            class="custom-btn custom-btn-regular custom-btn-outline"
+            >Apply Now</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="row single-job-wrapper">
+      <div class="col-7 col-sm-8">
+        <div class="single-job d-flex">
+          <div class="accordion-btns">
+            <button
+              class="accordion-btn collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix"
+              aria-expanded="false"
+              aria-controls="flush-collapseSix"
+            >
+              <img src="assets/css/icons/plus-icon.svg" alt="" />
+              <img src="assets/css/icons/minus.svg" alt="" />
+            </button>
+          </div>
+          <div class="job-content">
+            <h4 class="job-title">Digital Marketing Account Manager</h4>
+            <div
+              id="flush-collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingSix"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="job-desc">
+                Blandit quam eget fames nisl. Vel vestibulum dictum morbi
+                risus. Mauris dictumst vitae convallis aliquam
+                ullamcorper. Quis non non ac massa augue id scelerisque.
+                Egestas eget cursus egestas habitant orci. In posuere
+                tempus, vulputate est, diam arcu.
+              </div>
+              <div class="job-requirements">
+                <div class="job-req-title">Requirements:</div>
+                <ul class="job-req-list">
+                  <li>Vitae luctus et arcu vitae eu tellus orci.</li>
+                  <li>
+                    Vel morbi nunc ullamcorper nisl, quis varius ultricies
+                    blandit.
+                  </li>
+                  <li>Purus cursus nascetur leo diam.</li>
+                  <li>
+                    Nascetur id turpis facilisis faucibus vel, iaculis
+                    etiam.
+                  </li>
+                </ul>
+              </div>
+              <div class="job-responsibilities">
+                <div class="job-resp-title">Responsibilities::</div>
+                <ul class="job-resp-list">
+                  <li>Vitae luctus et arcu vitae eu tellus orci.</li>
+                  <li>
+                    Vel morbi nunc ullamcorper nisl, quis varius ultricies
+                    blandit.
+                  </li>
+                  <li>Purus cursus nascetur leo diam.</li>
+                  <li>
+                    Nascetur id turpis facilisis faucibus vel, iaculis
+                    etiam.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-5 col-sm-4">
+        <div class="job-apply-now">
+          <a
+            href="#
+          "
+            class="custom-btn custom-btn-regular custom-btn-outline"
+            >Apply Now</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="row single-job-wrapper">
+      <div class="col-7 col-sm-8">
+        <div class="single-job d-flex">
+          <div class="accordion-btns">
+            <button
+              class="accordion-btn collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive"
+              aria-expanded="false"
+              aria-controls="flush-collapseFive"
+            >
+              <img src="assets/css/icons/plus-icon.svg" alt="" />
+              <img src="assets/css/icons/minus.svg" alt="" />
+            </button>
+          </div>
+          <div class="job-content">
+            <h4 class="job-title">SEO Strategistr</h4>
+            <div
+              id="flush-collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="job-desc">
+                Blandit quam eget fames nisl. Vel vestibulum dictum morbi
+                risus. Mauris dictumst vitae convallis aliquam
+                ullamcorper. Quis non non ac massa augue id scelerisque.
+                Egestas eget cursus egestas habitant orci. In posuere
+                tempus, vulputate est, diam arcu.
+              </div>
+              <div class="job-requirements">
+                <div class="job-req-title">Requirements:</div>
+                <ul class="job-req-list">
+                  <li>Vitae luctus et arcu vitae eu tellus orci.</li>
+                  <li>
+                    Vel morbi nunc ullamcorper nisl, quis varius ultricies
+                    blandit.
+                  </li>
+                  <li>Purus cursus nascetur leo diam.</li>
+                  <li>
+                    Nascetur id turpis facilisis faucibus vel, iaculis
+                    etiam.
+                  </li>
+                </ul>
+              </div>
+              <div class="job-responsibilities">
+                <div class="job-resp-title">Responsibilities::</div>
+                <ul class="job-resp-list">
+                  <li>Vitae luctus et arcu vitae eu tellus orci.</li>
+                  <li>
+                    Vel morbi nunc ullamcorper nisl, quis varius ultricies
+                    blandit.
+                  </li>
+                  <li>Purus cursus nascetur leo diam.</li>
+                  <li>
+                    Nascetur id turpis facilisis faucibus vel, iaculis
+                    etiam.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-5 col-sm-4">
+        <div class="job-apply-now">
+          <a
+            href="#
+          "
+            class="custom-btn custom-btn-regular custom-btn-outline"
+            >Apply Now</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--End of About us jobs -->
+<!--Start of looking-for -->
+<section class="looking-for">
+<div class="custom-container">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="section-title">
+        <h2>Didn’t find what you were looking for?</h2>
+        <div class="section-title-desc">
+          Send your CV or subscribe to our newsletter to receive
+          information about new vacancies.
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <form action="" id="looking-for-form" class="contacts-form">
+        <div class="row">
+          <div class="col-12 col-sm-6">
+            <div class="contacts-form-item">
+              <label for="contacts-name" class="contacts-label">
+                Name*</label
+              >
+              <input
+                id="contacts-name"
+                type="text"
+                class="custom-input input-lg"
+                placeholder="Your name"
+                required
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="contacts-form-item">
+              <label for="contacts-phone" class="contacts-label"
+                >Phone*</label
+              >
+              <input
+                id="contacts-phone"
+                type="number"
+                class="custom-input input-lg"
+                placeholder="Your phone number"
+                required
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="contacts-form-item">
+              <label for="contacts-email" class="contacts-label">
+                Email*</label
+              >
+              <input
+                id="contacts-email"
+                type="email"
+                class="custom-input input-lg"
+                placeholder="Your working email"
+                required
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="contacts-form-item">
+              <label for="contacts-select" class="contacts-label">
+                I am interested in*</label
+              >
+              <select
+                class="form-select custom-select"
+                aria-label="Default select example"
+              >
+                <option selected>Choose</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="contacts-form-item">
+          <label for="contacts-message" class="contacts-label"
+            >Cover letter</label
+          >
+          <textarea
+            class="custom-textarea"
+            name=""
+            id="contacts-message"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <input type="checkbox" id="custom-checkbox" />
+          <label for="custom-checkbox" class="d-flex align-items-start"
+            >I agree to receive communications from Createx SEO
+            Agency</label
+          >
+        </div>
+        <button
+          type="submit"
+          class="custom-btn custom-btn-lg custom-btn-solid send-resume"
+        >
+          Send Resume
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+<!-- start of main footer -->
+<footer class="main-footer">
+  <div class="custom-container-fluid">
+    <div class="footer-main">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="footer-col">
+            <div class="logo-white">
+              <a href="index.html"><img src="assets/img/resources/logo-white.png" alt=""></a>
+            </div>
+            <div class="logo-description">
+              Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through
+              a wealth
+              of performance data and market research. We create science-based SEO strategies to empower our clients.
+            </div>
+            <ul class="social-media list-unstyled">
+              <li class="d-inline-block">
+                <a href="#">
+                  <img src="assets/css/icons/Facebook.svg" alt="">
+                </a>
+              </li>
+              <li class="d-inline-block">
+                <a href="#">
+                  <img src="assets/css/icons/Linked-In.svg" alt="">
+                </a>
+              </li>
+              <li class="d-inline-block">
+                <a href="#">
+                  <img src="assets/css/icons/Twitter.svg" alt="">
+                </a>
+              </li>
+              <li class="d-inline-block">
+                <a href="#">
+                  <img src="assets/css/icons/Instagram.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <div class="company">
+            <p class="company-title">Company</p>
+            <ul class="company-list list-unstyled">
+              <li>
+                <a href="#">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Case Studies
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Careers
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Contacts
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <div class="services">
+            <p class="services-title ">Services</p>
+            <ul class="services-list list-unstyled">
+              <li>
+                <a href="#">
+                  Social Media
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  SEO
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Research
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Content & PR
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Payed Traffic
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <div class="contact-us">
+            <p class="contact-us-title">Contact us</p>
+            <ul class="contact-us-list list-unstyled">
+              <li>
+                <a href="tel:(405) 555-0128" class="d-flex align-items-center">
+                  <img src="assets/css/icons/iPhone.svg" alt="">
+                  (405) 555-0128
+                </a>
+              </li>
+              <li>
+                <a href="mailto:hello@createx.com" class="d-flex align-items-center">
+                  <img src="assets/css/icons/Mail.svg" alt="">
+                  <span>hello@createx.com</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="newsletter">
+            <p class="newsletter-title ">SIGN UP TO OUR NEWSLETTER</p>
+            <div class="newsletter-email position-relative">
+              <input class="input-sm custom-input" type="email" placeholder="Email address" required>
+              <button type="submit" class="position-absolute">
+                <img src="assets/css/icons/Right.svg" alt="">
+              </button>
+            </div>
+            <div class="newsletter-email-desc">
+              *Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom awards d-flex">
+      <div class="awards-img overflow-hidden">
+        <img src="assets/img/resources/award-1.png" alt="">
+      </div>
+      <div class="awards-img overflow-hidden">
+        <img src="assets/img/resources/award-2.png" alt="">
+      </div>
+      <div class="awards-img overflow-hidden">
+        <img src="assets/img/resources/award-3.png" alt="">
+      </div>
+      <div class="awards-img overflow-hidden">
+        <img src="assets/img/resources/award-4.png" alt="">
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/plugins.min.js"></script>
+<script>
+  wow = new WOW(
+    {
+      boxClass: 'wow',      // default
+      animateClass: 'animated', // default
+      offset: 0,          // default
+      mobile: true,       // default
+      live: true        // default
+    }
+  )
+  wow.init();
+</script>
+<script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

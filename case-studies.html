@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="shortcut icon" href="assets/css-dep/img/logo.ico"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="assets/css/plugins.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <!-- add menu here -->
+<div class="case-studies-bg" style="background-image: url(assets/img/backgrounds/case-studies-bg.png);">
+    <!-- Start of main header -->
+    <header class="main-header">
+        <div class="custom-container-fluid">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="mh-left d-flex align-items-center">
+                    <div class="logo-wrapper">
+                        <div class="logo-white">
+                            <a href="index.html"><img src="assets/img/resources/logo-white.png" alt=""></a>
+                        </div>
+                    </div>
+                    <nav class="main-navbar">
+                        <ul class="menu-list m-0 p-0">
+                            <li class="dropdown d-inline-block">
+                             <a href="our-services.html">Services</a>
+                            </li>
+                            <li class="d-inline-block">
+                                <a href="case-studies.html">Case Studies</a>
+                            </li>
+                            <li class="d-inline-block">
+                                <a href="about-us.html">About Us</a>
+                            </li>
+                            <li class="d-inline-block">
+                                <a href="blog.html">Blog</a>
+                            </li>
+                            <li class="d-inline-block">
+                                <a href="contacts.html">Contacts</a>
+                            </li>
+                        </ul>
+                        <button class="custom-menubar"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </nav>
+                </div>
+                <div class="mh-right d-none d-xl-block">
+                    <a href="" class="custom-btn custom-btn-solid custom-btn-lg">
+                        Talk to a human
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-start custom-sidebar" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header custom-sidebar-header">
+              <div class="logo-wrapper">
+                <div class="logo-white">
+                    <a href="index.html"><img src="assets/img/resources/logo-white.png" alt=""></a>
+                </div>
+            </div>
+              <button type="button"  data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="offcanvas-body">
+              <nav class="mobile-navbar">
+                <ul class="mobile-menu-list list-unstyled m-0 p-0">
+                    <li class="dropdown">
+                     <a href="our-services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="case-studies.html">Case Studies</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contacts.html">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+          </div>
+    </header>
+    <!-- End of Main header -->
+    <section class="page-header text-center">
+        <div class="custom-container-fluid">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb custom-breadcrumb justify-content-center">
+                    <li class="breadcrumb-item"><a href="index.html"><i class="fa-sharp fa-solid fa-house"></i></a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Case Studies</li>
+                </ol>
+            </nav>
+            <h1 class="page-title text-white m-0">
+                Case Studies
+            </h1>
+            <div class="page-desc">
+                We help our clients get better results with our creative and data-driven approach to online advertising.
+                View our case
+                study portfolio and learn more about the process that sets us apart.
+            </div>
+            <div class="case-studies-header__bottom ">
+                <div class="email-lg position-relative">
+                    <label for="email">Email</label>
+                    <input class="custom-input input-lg" type="email" id="email" placeholder="Your working email">
+                    <button class="subscribe-btn custom-btn custom-btn-lg custom-btn-solid position-absolute">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- start of case-studies-blog -->
+<section class="case-studies-blog">
+    <div class="custom-container">
+        <ul class="nav nav-pills custom-tab" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="custom-btn custom-btn-lg active" id="pills-social-media-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-social-media" type="button" role="tab" aria-controls="pills-social-media"
+                    aria-selected="true">Social Media</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link custom-btn custom-btn-lg" id="pills-profile-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                    aria-selected="false">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link custom-btn custom-btn-lg" id="pills-contact-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                    aria-selected="false">Contact</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link custom-btn custom-btn-lg" id="pills-content-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-content" type="button" role="tab" aria-controls="pills-content"
+                    aria-selected="false">Content & PR</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link custom-btn custom-btn-lg" id="pills-traffic-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-traffic" type="button" role="tab" aria-controls="pills-traffic"
+                    aria-selected="false">Payed Traffic</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-social-media" role="tabpanel"
+                aria-labelledby="pills-social-media-tab" tabindex="0">
+                <div class="cs-blog-wrapper">
+                    <div class="row">
+                        <div class="col-lg-6 col-12">
+                            <a href="#">
+                                <div class="single-cs-blog wow animate__fadeIn" data-wow-duration="1s">
+                                    <div class="cs-blog-img position-relative">
+                                        <img src="assets/img/resources/cs-blog-img.png" alt="blog">
+                                        <div class="cs-blog-img__content position-absolute">
+                                            <img src="assets/img/resources/client-logo-1.png">
+                                            <div class="cs-blog-img__content-text text-white">
+                                                Charity organisation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cs-blog-content">
+                                        <div class="d-flex cs-blog-figures">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img src="assets/img/resources/circle.-1.png" alt="">
+                                                </div>
+                                                <div class="cs-figure-content">
+                                                    <h4 class="cs-figure-title m-0">90%</h4>
+                                                    <p class="cs-figure-subtitle m-0">Engagement</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img src="assets/img/resources/circle-2.png" alt="">
+                                                </div>
+                                                <div class="cs-figure-content">
+                                                    <h4 class="cs-figure-title m-0">100%</h4>
+                                                    <p class="cs-figure-subtitle m-0">Deliverability</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cs-blog-text">
+                                            Createx SEO Agency helped JNational Inc. increase their MQL to SQL
+                                            conversion rate by 300%.
+                                        </div>
+                                        <div class="view-case">
+                                            <a href="#" class="btn-alternative d-flex">
+                                                <img class="before-icon" src="assets/css/icons/Right-arrow.svg" alt="">
+                                                View case
+                                                <img class="after-icon" src="assets/css/icons/Right-arrow.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <a href="#">
+                                <div class="single-cs-blog wow animate__fadeIn" data-wow-duration="1s">
+                                    <div class="cs-blog-img position-relative">
+                                        <img src="assets/img/resources/cs-blog-img.png" alt="blog">
+                                        <div class="cs-blog-img__content position-absolute">
+                                            <img src="assets/img/resources/client-logo-1.png">
+                                            <div class="cs-blog-img__content-text text-white">
+                                                Charity organisation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cs-blog-content">
+                                        <div class="d-flex cs-blog-figures">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img src="assets/img/resources/circle.-1.png" alt="">
+                                                </div>
+                                                <div class="cs-figure-content">
+                                                    <h4 class="cs-figure-title m-0">90%</h4>
+                                                    <p class="cs-figure-subtitle m-0">Engagement</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img src="assets/img/resources/circle-2.png" alt="">
+                                                </div>
+                                                <div class="cs-figure-content">
+                                                    <h4 class="cs-figure-title m-0">100%</h4>
+                                                    <p class="cs-figure-subtitle m-0">Deliverability</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cs-blog-text">
+                                            Createx SEO Agency helped JNational Inc. increase their MQL to SQL
+                                            conversion rate by 300%.
+                                        </div>
+                                        <div class="view-case">
+                                            <a href="#" class="btn-alternative d-flex">
+                                                <img class="before-icon" src="assets/css/icons/Right-arrow.svg" alt="">
+                                                View case
+                                                <img class="after-icon" src="assets/css/icons/Right-arrow.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <a href="#">
+                                <div  class="single-cs-blog wow animate__fadeIn" data-wow-duration="1s">
+                                    <div class="cs-blog-img position-relative">
+                                        <img src="assets/img/resources/cs-blog-img.png" alt="blog">
+                                        <div class="cs-blog-img__content position-absolute">
+                                            <img src="assets/img/resources/client-logo-1.png">
+                                            <div class="cs-blog-img__content-text text-white">
+                                                Charity organisation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cs-blog-content">
+                                        <div class="d-flex cs-blog-figures">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img src="assets/img/resources/circle.-1.png" alt="">
+                                                </div>
+                                                <div class="cs-figure-content">
+                                                    <h4 class="cs-figure-title m-0">90%</h4>
+                                                    <p class="cs-figure-subtitle m-0">Engagement</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img src="assets/img/resources/circle-2.png" alt="">
+                                                </div>
+                                                <div class="cs-figure-content">
+                                                    <h4 class="cs-figure-title m-0">100%</h4>
+                                                    <p class="cs-figure-subtitle m-0">Deliverability</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cs-blog-text">
+                                            Createx SEO Agency helped JNational Inc. increase their MQL to SQL
+                                            conversion rate by 300%.
+                                        </div>
+                                        <div class="view-case">
+                                            <a href="#" class="btn-alternative d-flex">
+                                                <img class="before-icon" src="assets/css/icons/Right-arrow.svg" alt="">
+                                                View case
+                                                <img class="after-icon" src="assets/css/icons/Right-arrow.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <a href="#">
+                                <div class="single-cs-blog wow animate__fadeIn" data-wow-duration="1s">
+                                    <div class="cs-blog-img position-relative">
+                                        <img src="assets/img/resources/cs-blog-img.png" alt="blog">
+                                        <div class="cs-blog-img__content position-absolute">
+                                            <img src="assets/img/resources/client-logo-1.png">
+                                            <div class="cs-blog-img__content-text text-white">
+                                                Charity organisation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cs-blog-content">
+                                        <div class="d-flex cs-blog-figures">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img src="assets/img/resources/circle.-1.png" alt="">
+                                                </div>
+                                                <div class="cs-figure-content">
+                                                    <h4 class="cs-figure-title m-0">90%</h4>
+                                                    <p class="cs-figure-subtitle m-0">Engagement</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img src="assets/img/resources/circle-2.png" alt="">
+                                                </div>
+                                                <div class="cs-figure-content">
+                                                    <h4 class="cs-figure-title m-0">100%</h4>
+                                                    <p class="cs-figure-subtitle m-0">Deliverability</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cs-blog-text">
+                                            Createx SEO Agency helped JNational Inc. increase their MQL to SQL
+                                            conversion rate by 300%.
+                                        </div>
+                                        <div class="view-case">
+                                            <a href="#" class="btn-alternative d-flex">
+                                                <img class="before-icon" src="assets/css/icons/Right-arrow.svg" alt="">
+                                                View case
+                                                <img class="after-icon" src="assets/css/icons/Right-arrow.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <a href="#">
+                                <div  class="single-cs-blog wow animate__fadeIn" data-wow-duration="1s">
+                                    <div class="cs-blog-img position-relative">
+                                        <img src="assets/img/resources/cs-blog-img.png" alt="blog">
+                                        <div class="cs-blog-img__content position-absolute">
+                                            <img src="assets/img/resources/client-logo-1.png">
+                                            <div class="cs-blog-img__content-text text-white">
+                                                Charity organisation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cs-blog-content">
+                                        <div class="d-flex cs-blog-figures">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img src="assets/img/resources/circle.-1.png" alt="">
+                                                </div>
+                                                <div class="cs-figure-content">
+                                                    <h4 class="cs-figure-title m-0">90%</h4>
+                                                    <p class="cs-figure-subtitle m-0">Engagement</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img src="assets/img/resources/circle-2.png" alt="">
+                                                </div>
+                                                <div class="cs-figure-content">
+                                                    <h4 class="cs-figure-title m-0">100%</h4>
+                                                    <p class="cs-figure-subtitle m-0">Deliverability</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cs-blog-text">
+                                            Createx SEO Agency helped JNational Inc. increase their MQL to SQL
+                                            conversion rate by 300%.
+                                        </div>
+                                        <div class="view-case">
+                                            <a href="#" class="btn-alternative d-flex">
+                                                <img class="before-icon" src="assets/css/icons/Right-arrow.svg" alt="">
+                                                View case
+                                                <img class="after-icon" src="assets/css/icons/Right-arrow.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <a href="#">
+                                <div  class="single-cs-blog wow animate__fadeIn" data-wow-duration="1s">
+                                    <div class="cs-blog-img position-relative">
+                                        <img src="assets/img/resources/cs-blog-img.png" alt="blog">
+                                        <div class="cs-blog-img__content position-absolute">
+                                            <img src="assets/img/resources/client-logo-1.png">
+                                            <div class="cs-blog-img__content-text text-white">
+                                                Charity organisation
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cs-blog-content">
+                                        <div class="d-flex cs-blog-figures">
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img src="assets/img/resources/circle.-1.png" alt="">
+                                                </div>
+                                                <div class="cs-figure-content">
+                                                    <h4 class="cs-figure-title m-0">90%</h4>
+                                                    <p class="cs-figure-subtitle m-0">Engagement</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div>
+                                                    <img src="assets/img/resources/circle-2.png" alt="">
+                                                </div>
+                                                <div class="cs-figure-content">
+                                                    <h4 class="cs-figure-title m-0">100%</h4>
+                                                    <p class="cs-figure-subtitle m-0">Deliverability</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="cs-blog-text">
+                                            Createx SEO Agency helped JNational Inc. increase their MQL to SQL
+                                            conversion rate by 300%.
+                                        </div>
+                                        <div class="view-case">
+                                            <a href="#" class="btn-alternative d-flex">
+                                                <img class="before-icon" src="assets/css/icons/Right-arrow.svg" alt="">
+                                                View case
+                                                <img class="after-icon" src="assets/css/icons/Right-arrow.svg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex load-more justify-content-center">
+                    <div class="load-more-icon">
+                        <img class="load-more-icon" src="assets/css/icons/load-more.svg" alt="">
+                    </div>
+                    <a href="#" class="load-more-link text-decoration-none">
+                        Load more
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of case-studies-blog -->
+<!-- Start of our-clients -->
+<section class="our-clients-sec__cs">
+    <div class="custom-container-fluid">
+      <div class="row">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div class="client-logo">
+            <a href="#">
+              <img
+                src="assets/img/resources/client-logo-2.png"
+                alt="client-logo"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div class="client-logo">
+            <a href="#">
+              <img
+                src="assets/img/resources/client-logo-3.png"
+                alt="client-logo"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div class="client-logo">
+            <a href="#">
+              <img
+                src="assets/img/resources/client-logo-4.png"
+                alt="client-logo"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div class="client-logo">
+            <a href="#">
+              <img
+                src="assets/img/resources/client-logo-5.png"
+                alt="client-logo"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div class="client-logo">
+            <a href="#">
+              <img
+                src="assets/img/resources/client-logo-6.png"
+                alt="client-logo"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div class="client-logo">
+            <a href="#">
+              <img
+                src="assets/img/resources/client-logo-7.png"
+                alt="client-logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+  class="our-clients-comment__cs"
+  style="
+    background-image: url(assets/img/backgrounds/home-clients-comment-bg.png);
+  "
+>
+  <div class="custom-container">
+    <div class="section-title text-center">
+      <h2>What our clients say</h2>
+    </div>
+    <div id="carouselCommentInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="row align-items-center">
+        <div class="col-lg-1">
+          <div
+            class="prev-icon d-none d-md-flex align-items-center justify-content-center"
+          >
+          <button class="custom-carousel-btn" type="button" data-bs-target="#carouselCommentInterval" data-bs-slide="prev">
+            <span class="d-flex align-items-center justify-content-center"
+            ><img src="assets/css/icons/prev-btn.svg" alt="" />
+            <img src="assets/css/icons/prev-btn-white.svg" alt=""
+          /></span>
+          </button>
+          </div>
+        </div>
+        <div class="col-lg-10">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="clients-comments">
+                <div class="clients-comments-content">
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <div class="comment-icon">
+                        <img src="assets/css/icons/Braces.svg" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-11">
+                      <div class="comment-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Justo, amet lectus quam viverra mus lobortis fermentum amet,
+                        eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+                        ornare turpis quis non. Congue tortor in euismod vulputate
+                        etiam eros. Pulvinar neque pharetra arcu diam maecenas diam
+                        integer in.
+                      </div>
+                      <div class="client-info d-flex align-items-center">
+                        <div class="client-img overflow-hidden">
+                          <img src="assets/img/resources/user.png" alt="user" />
+                        </div>
+                        <div class="client-about">
+                          <h4>Courtney Alexander</h4>
+                          <h5>Position, Company name</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <div class="clients-comments">
+                <div class="clients-comments-content">
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <div class="comment-icon">
+                        <img src="assets/css/icons/Braces.svg" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-11">
+                      <div class="comment-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Justo, amet lectus quam viverra mus lobortis fermentum amet,
+                        eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+                        ornare turpis quis non. Congue tortor in euismod vulputate
+                        etiam eros. Pulvinar neque pharetra arcu diam maecenas diam
+                        integer in.
+                      </div>
+                      <div class="client-info d-flex align-items-center">
+                        <div class="client-img overflow-hidden">
+                          <img src="assets/img/resources/user-2.png" alt="user" />
+                        </div>
+                        <div class="client-about">
+                          <h4>Courtney Alexander</h4>
+                          <h5>Position, Company name</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="clients-comments">
+                <div class="clients-comments-content">
+                  <div class="row">
+                    <div class="col-lg-1">
+                      <div class="comment-icon">
+                        <img src="assets/css/icons/Braces.svg" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-11">
+                      <div class="comment-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Justo, amet lectus quam viverra mus lobortis fermentum amet,
+                        eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus
+                        ornare turpis quis non. Congue tortor in euismod vulputate
+                        etiam eros. Pulvinar neque pharetra arcu diam maecenas diam
+                        integer in.
+                      </div>
+                      <div class="client-info d-flex align-items-center">
+                        <div class="client-img overflow-hidden">
+                          <img src="assets/img/resources/user-3.png" alt="user" />
+                        </div>
+                        <div class="client-about">
+                          <h4>Courtney Alexander</h4>
+                          <h5>Position, Company name</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1">
+          <div
+            class="next-icon d-none d-md-flex align-items-center justify-content-center"
+          >
+          <button  class="custom-carousel-btn" type="button" data-bs-target="#carouselCommentInterval" data-bs-slide="next">
+            <span class="d-flex align-items-center justify-content-center"
+              ><img src="assets/css/icons/next-btn.svg" alt="" />
+              <img src="assets/css/icons/next-btn-white.svg" alt=""
+            /></span>
+          </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Start of Latest news -->
+<section class="latest-news-sec__cs">
+    <div class="custom-container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="section-title">
+            <h2>Latest news</h2>
+            <div class="section-title-desc">
+              Check more posts in our blog for featured news and advertising
+              insights
+            </div>
+          </div>
+          <div>
+            <a href="#" class="custom-btn custom-btn-solid custom-btn-lg">
+              Go to Blog
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="latest-news blog">
+            <a href="#">
+              <div class="blog-img">
+                <img src="assets/img/resources/latest-news-1.png" alt="" />
+              </div>
+              <div class="blog-content">
+                <ul class="blog-info list-unstyled d-flex align-items-center m-0">
+                  <li class="d-inline-flex">SEO</li>
+                  <li class="d-inline-flex align-items-center">
+                    <img src="assets/css/icons/Clock.svg" alt="" />
+                    <span>July 5, 2020</span>
+                  </li>
+                  <li class="d-inline-flex align-items-center">
+                    <img src="assets/css/icons/Profile.svg" alt="" />
+                    <span>By Diane Mccoy</span>
+                  </li>
+                </ul>
+                <h3 class="blog-title m-0">
+                  How to Maximize Your ROI Through Scientific SEM?
+                </h3>
+                <div class="blog-desc">
+                  Vulputate vitae pellentesque scelerisque luctus consequat mattis
+                  pellentesque dui odio...
+                </div>
+              </div>
+            </a>
+            <div class="read-more">
+              <a href="#" class="btn-alternative d-inline-flex">
+                <img
+                  class="before-icon"
+                  src="assets/css/icons/Right-arrow.svg"
+                  alt=""
+                />
+                Read More
+                <img
+                  class="after-icon"
+                  src="assets/css/icons/Right-arrow.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="latest-news blog">
+            <a href="#">
+              <div class="blog-img">
+                <img src="assets/img/resources/latest-news-2.png" alt="" />
+              </div>
+              <div class="blog-content">
+                <ul class="blog-info list-unstyled d-flex align-items-center m-0">
+                  <li class="d-inline-flex">SEO</li>
+                  <li class="d-inline-flex align-items-center">
+                    <img src="assets/css/icons/Clock.svg" alt="" />
+                    <span>July 5, 2020</span>
+                  </li>
+                  <li class="d-inline-flex align-items-center">
+                    <img src="assets/css/icons/Profile.svg" alt="" />
+                    <span>By Diane Mccoy</span>
+                  </li>
+                </ul>
+                <h3 class="blog-title m-0">
+                  How to Maximize Your ROI Through Scientific SEM?
+                </h3>
+                <div class="blog-desc">
+                  Vulputate vitae pellentesque scelerisque luctus consequat mattis
+                  pellentesque dui odio...
+                </div>
+              </div>
+            </a>
+            <div class="read-more">
+              <a href="#" class="btn-alternative d-inline-flex">
+                <img
+                  class="before-icon"
+                  src="assets/css/icons/Right-arrow.svg"
+                  alt=""
+                />
+                Read More
+                <img
+                  class="after-icon"
+                  src="assets/css/icons/Right-arrow.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Latest news -->
+  <!-- End of our-clients -->
+<!-- start of main footer -->
+<footer class="main-footer">
+  <div class="custom-container-fluid">
+    <div class="footer-main">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="footer-col">
+            <div class="logo-white">
+              <a href="index.html"><img src="assets/img/resources/logo-white.png" alt=""></a>
+            </div>
+            <div class="logo-description">
+              Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through
+              a wealth
+              of performance data and market research. We create science-based SEO strategies to empower our clients.
+            </div>
+            <ul class="social-media list-unstyled">
+              <li class="d-inline-block">
+                <a href="#">
+                  <img src="assets/css/icons/Facebook.svg" alt="">
+                </a>
+              </li>
+              <li class="d-inline-block">
+                <a href="#">
+                  <img src="assets/css/icons/Linked-In.svg" alt="">
+                </a>
+              </li>
+              <li class="d-inline-block">
+                <a href="#">
+                  <img src="assets/css/icons/Twitter.svg" alt="">
+                </a>
+              </li>
+              <li class="d-inline-block">
+                <a href="#">
+                  <img src="assets/css/icons/Instagram.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <div class="company">
+            <p class="company-title">Company</p>
+            <ul class="company-list list-unstyled">
+              <li>
+                <a href="#">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Case Studies
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Careers
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Contacts
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <div class="services">
+            <p class="services-title ">Services</p>
+            <ul class="services-list list-unstyled">
+              <li>
+                <a href="#">
+                  Social Media
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  SEO
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Research
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Content & PR
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Payed Traffic
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <div class="contact-us">
+            <p class="contact-us-title">Contact us</p>
+            <ul class="contact-us-list list-unstyled">
+              <li>
+                <a href="tel:(405) 555-0128" class="d-flex align-items-center">
+                  <img src="assets/css/icons/iPhone.svg" alt="">
+                  (405) 555-0128
+                </a>
+              </li>
+              <li>
+                <a href="mailto:hello@createx.com" class="d-flex align-items-center">
+                  <img src="assets/css/icons/Mail.svg" alt="">
+                  <span>hello@createx.com</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="newsletter">
+            <p class="newsletter-title ">SIGN UP TO OUR NEWSLETTER</p>
+            <div class="newsletter-email position-relative">
+              <input class="input-sm custom-input" type="email" placeholder="Email address" required>
+              <button type="submit" class="position-absolute">
+                <img src="assets/css/icons/Right.svg" alt="">
+              </button>
+            </div>
+            <div class="newsletter-email-desc">
+              *Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom awards d-flex">
+      <div class="awards-img overflow-hidden">
+        <img src="assets/img/resources/award-1.png" alt="">
+      </div>
+      <div class="awards-img overflow-hidden">
+        <img src="assets/img/resources/award-2.png" alt="">
+      </div>
+      <div class="awards-img overflow-hidden">
+        <img src="assets/img/resources/award-3.png" alt="">
+      </div>
+      <div class="awards-img overflow-hidden">
+        <img src="assets/img/resources/award-4.png" alt="">
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/plugins.min.js"></script>
+<script>
+  wow = new WOW(
+    {
+      boxClass: 'wow',      // default
+      animateClass: 'animated', // default
+      offset: 0,          // default
+      mobile: true,       // default
+      live: true        // default
+    }
+  )
+  wow.init();
+</script>
+<script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

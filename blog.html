@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="shortcut icon" href="assets/css-dep/img/logo.ico"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="assets/css/plugins.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <!-- add menu here -->
+
+<div
+  class="blog-bg"
+  style="
+    background-image: url(assets/img/backgrounds/blog-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  "
+>
+  <!-- Start of main header -->
+  <header class="main-header">
+      <div class="custom-container-fluid">
+          <div class="d-flex justify-content-between align-items-center">
+              <div class="mh-left d-flex align-items-center">
+                  <div class="logo-wrapper">
+                      <div class="logo-white">
+                          <a href="index.html"><img src="assets/img/resources/logo-white.png" alt=""></a>
+                      </div>
+                  </div>
+                  <nav class="main-navbar">
+                      <ul class="menu-list m-0 p-0">
+                          <li class="dropdown d-inline-block">
+                           <a href="our-services.html">Services</a>
+                          </li>
+                          <li class="d-inline-block">
+                              <a href="case-studies.html">Case Studies</a>
+                          </li>
+                          <li class="d-inline-block">
+                              <a href="about-us.html">About Us</a>
+                          </li>
+                          <li class="d-inline-block">
+                              <a href="blog.html">Blog</a>
+                          </li>
+                          <li class="d-inline-block">
+                              <a href="contacts.html">Contacts</a>
+                          </li>
+                      </ul>
+                      <button class="custom-menubar"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                          <i class="fa-solid fa-bars"></i>
+                      </button>
+                  </nav>
+              </div>
+              <div class="mh-right d-none d-xl-block">
+                  <a href="" class="custom-btn custom-btn-solid custom-btn-lg">
+                      Talk to a human
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="offcanvas offcanvas-start custom-sidebar" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header custom-sidebar-header">
+            <div class="logo-wrapper">
+              <div class="logo-white">
+                  <a href="index.html"><img src="assets/img/resources/logo-white.png" alt=""></a>
+              </div>
+          </div>
+            <button type="button"  data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="mobile-navbar">
+              <ul class="mobile-menu-list list-unstyled m-0 p-0">
+                  <li class="dropdown">
+                   <a href="our-services.html">Services</a>
+                  </li>
+                  <li>
+                      <a href="case-studies.html">Case Studies</a>
+                  </li>
+                  <li>
+                      <a href="about-us.html">About Us</a>
+                  </li>
+                  <li>
+                      <a href="blog.html">Blog</a>
+                  </li>
+                  <li>
+                      <a href="contacts.html">Contacts</a>
+                  </li>
+              </ul>
+          </nav>
+          </div>
+        </div>
+  </header>
+  <!-- End of Main header -->
+  <section class="page-header text-center">
+    <div class="custom-container-fluid">
+      <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+        <ol class="breadcrumb custom-breadcrumb justify-content-center">
+          <li class="breadcrumb-item">
+            <a href="index.html"><i class="fa-sharp fa-solid fa-house"></i></a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Blog</li>
+        </ol>
+      </nav>
+      <h1 class="page-title text-white m-0">Blog</h1>
+      <div class="page-desc">
+        Thoughts, trends and up-to-date news in search and digital marketing.
+        Subsribe to our blog and receive latest news weekly.
+      </div>
+      <div class="blog-header__bottom">
+        <div class="search-lg position-relative">
+          <label for="email">Email</label>
+          <input
+            class="custom-input input-lg"
+            type="email"
+            id="text"
+            placeholder="Search the blog"
+          />
+          <button
+            class="search-btn custom-btn custom-btn-lg custom-btn-solid position-absolute"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+<!-- Start of blog-lastest-post -->
+<section class="blog-latest-post">
+  <div class="custom-container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="latest-post blog">
+          <a href="#">
+            <div class="latest-post-img position-relative">
+              <img src="assets/img/resources/latest-news-1.png" alt="" />
+              <div class="blog-img-badge position-absolute">Latest post</div>
+            </div>
+            <div class="blog-content">
+              <ul class="blog-info list-unstyled d-flex align-items-center m-0">
+                <li class="d-inline-flex">SEO</li>
+                <li class="d-inline-flex align-items-center">
+                  <img src="assets/css/icons/Clock.svg" alt="" />
+                  <span>July 5, 2020</span>
+                </li>
+                <li class="d-inline-flex align-items-center">
+                  <img src="assets/css/icons/Profile.svg" alt="" />
+                  <span>By Diane Mccoy</span>
+                </li>
+              </ul>
+              <h3 class="blog-title m-0">
+                How to Maximize Your ROI Through Scientific SEM?
+              </h3>
+            </div>
+          </a>
+          <div class="read-more">
+            <a href="#" class="btn-alternative d-inline-flex">
+              <img
+                class="before-icon"
+                src="assets/css/icons/Right-arrow.svg"
+                alt=""
+              />
+              Read More
+              <img
+                class="after-icon"
+                src="assets/css/icons/Right-arrow.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="latest-post blog">
+          <a href="#">
+            <div class="latest-post-img position-relative">
+              <img src="assets/img/resources/latest-news-2.png" alt="" />
+              <div class="blog-img-badge position-absolute">Latest post</div>
+            </div>
+            <div class="blog-content">
+              <ul class="blog-info list-unstyled d-flex align-items-center m-0">
+                <li class="d-inline-flex">SEO</li>
+                <li class="d-inline-flex align-items-center">
+                  <img src="assets/css/icons/Clock.svg" alt="" />
+                  <span>July 5, 2020</span>
+                </li>
+                <li class="d-inline-flex align-items-center">
+                  <img src="assets/css/icons/Profile.svg" alt="" />
+                  <span>By Diane Mccoy</span>
+                </li>
+              </ul>
+              <h3 class="blog-title m-0">
+                The Basics of Blogging Search Engine Optimization.
+              </h3>
+            </div>
+          </a>
+          <div class="read-more">
+            <a href="#" class="btn-alternative d-inline-flex">
+              <img
+                class="before-icon"
+                src="assets/css/icons/Right-arrow.svg"
+                alt=""
+              />
+              Read More
+              <img
+                class="after-icon"
+                src="assets/css/icons/Right-arrow.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of blog-lastest-post -->
+<!-- Start of blog-main -->
+<section class="blog-main">
+  <div class="custom-container-fluid">
+    <div class="row blog-main__row">
+      <div class="col-lg-7">
+        <div class="blog-main-left">
+          <div class="tab-content" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home-tab-pane"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+              tabindex="0"
+            >
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="blog">
+                    <a href="#">
+                      <div class="blog-img">
+                        <img
+                          src="assets/img/resources/latest-news-1.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="blog-content">
+                        <ul
+                          class="blog-info list-unstyled d-flex align-items-center m-0"
+                        >
+                          <li class="d-inline-flex">SEO</li>
+                          <li class="d-inline-flex align-items-center">
+                            <img src="assets/css/icons/Clock.svg" alt="" />
+                            <span>July 5, 2020</span>
+                          </li>
+                          <li class="d-inline-flex align-items-center">
+                            <img src="assets/css/icons/Profile.svg" alt="" />
+                            <span>By Diane Mccoy</span>
+                          </li>
+                        </ul>
+                        <h3 class="blog-title m-0">
+                          How to Maximize Your ROI Through Scientific SEM?
+                        </h3>
+                        <div class="blog-desc">
+                          Vulputate vitae pellentesque scelerisque luctus
+                          consequat mattis pellentesque dui odio...
+                        </div>
+                      </div>
+                    </a>
+                    <div class="read-more">
+                      <a href="#" class="btn-alternative d-inline-flex">
+                        <img
+                          class="before-icon"
+                          src="assets/css/icons/Right-arrow.svg"
+                          alt=""
+                        />
+                        Read More
+                        <img
+                          class="after-icon"
+                          src="assets/css/icons/Right-arrow.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="blog">
+                    <a href="#">
+                      <div class="blog-img">
+                        <img
+                          src="assets/img/resources/latest-news-2.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="blog-content">
+                        <ul
+                          class="blog-info list-unstyled d-flex align-items-center m-0"
+                        >
+                          <li class="d-inline-flex">SEO</li>
+                          <li class="d-inline-flex align-items-center">
+                            <img src="assets/css/icons/Clock.svg" alt="" />
+                            <span>July 5, 2020</span>
+                          </li>
+                          <li class="d-inline-flex align-items-center">
+                            <img src="assets/css/icons/Profile.svg" alt="" />
+                            <span>By Diane Mccoy</span>
+                          </li>
+                        </ul>
+                        <h3 class="blog-title m-0">
+                          How to Maximize Your ROI Through Scientific SEM?
+                        </h3>
+                        <div class="blog-desc">
+                          Vulputate vitae pellentesque scelerisque luctus
+                          consequat mattis pellentesque dui odio...
+                        </div>
+                      </div>
+                    </a>
+                    <div class="read-more">
+                      <a href="#" class="btn-alternative d-inline-flex">
+                        <img
+                          class="before-icon"
+                          src="assets/css/icons/Right-arrow.svg"
+                          alt=""
+                        />
+                        Read More
+                        <img
+                          class="after-icon"
+                          src="assets/css/icons/Right-arrow.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="blog">
+                    <a href="#">
+                      <div class="blog-img">
+                        <img
+                          src="assets/img/resources/latest-news-2.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="blog-content">
+                        <ul
+                          class="blog-info list-unstyled d-flex align-items-center m-0"
+                        >
+                          <li class="d-inline-flex">SEO</li>
+                          <li class="d-inline-flex align-items-center">
+                            <img src="assets/css/icons/Clock.svg" alt="" />
+                            <span>July 5, 2020</span>
+                          </li>
+                          <li class="d-inline-flex align-items-center">
+                            <img src="assets/css/icons/Profile.svg" alt="" />
+                            <span>By Diane Mccoy</span>
+                          </li>
+                        </ul>
+                        <h3 class="blog-title m-0">
+                          How to Maximize Your ROI Through Scientific SEM?
+                        </h3>
+                        <div class="blog-desc">
+                          Vulputate vitae pellentesque scelerisque luctus
+                          consequat mattis pellentesque dui odio...
+                        </div>
+                      </div>
+                    </a>
+                    <div class="read-more">
+                      <a href="#" class="btn-alternative d-inline-flex">
+                        <img
+                          class="before-icon"
+                          src="assets/css/icons/Right-arrow.svg"
+                          alt=""
+                        />
+                        Read More
+                        <img
+                          class="after-icon"
+                          src="assets/css/icons/Right-arrow.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="blog">
+                    <a href="#">
+                      <div class="blog-img">
+                        <img
+                          src="assets/img/resources/latest-news-2.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="blog-content">
+                        <ul
+                          class="blog-info list-unstyled d-flex align-items-center m-0"
+                        >
+                          <li class="d-inline-flex">SEO</li>
+                          <li class="d-inline-flex align-items-center">
+                            <img src="assets/css/icons/Clock.svg" alt="" />
+                            <span>July 5, 2020</span>
+                          </li>
+                          <li class="d-inline-flex align-items-center">
+                            <img src="assets/css/icons/Profile.svg" alt="" />
+                            <span>By Diane Mccoy</span>
+                          </li>
+                        </ul>
+                        <h3 class="blog-title m-0">
+                          How to Maximize Your ROI Through Scientific SEM?
+                        </h3>
+                        <div class="blog-desc">
+                          Vulputate vitae pellentesque scelerisque luctus
+                          consequat mattis pellentesque dui odio...
+                        </div>
+                      </div>
+                    </a>
+                    <div class="read-more">
+                      <a href="#" class="btn-alternative d-inline-flex">
+                        <img
+                          class="before-icon"
+                          src="assets/css/icons/Right-arrow.svg"
+                          alt=""
+                        />
+                        Read More
+                        <img
+                          class="after-icon"
+                          src="assets/css/icons/Right-arrow.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="blog">
+                    <a href="#">
+                      <div class="blog-img">
+                        <img
+                          src="assets/img/resources/latest-news-2.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="blog-content">
+                        <ul
+                          class="blog-info list-unstyled d-flex align-items-center m-0"
+                        >
+                          <li class="d-inline-flex">SEO</li>
+                          <li class="d-inline-flex align-items-center">
+                            <img src="assets/css/icons/Clock.svg" alt="" />
+                            <span>July 5, 2020</span>
+                          </li>
+                          <li class="d-inline-flex align-items-center">
+                            <img src="assets/css/icons/Profile.svg" alt="" />
+                            <span>By Diane Mccoy</span>
+                          </li>
+                        </ul>
+                        <h3 class="blog-title m-0">
+                          How to Maximize Your ROI Through Scientific SEM?
+                        </h3>
+                        <div class="blog-desc">
+                          Vulputate vitae pellentesque scelerisque luctus
+                          consequat mattis pellentesque dui odio...
+                        </div>
+                      </div>
+                    </a>
+                    <div class="read-more">
+                      <a href="#" class="btn-alternative d-inline-flex">
+                        <img
+                          class="before-icon"
+                          src="assets/css/icons/Right-arrow.svg"
+                          alt=""
+                        />
+                        Read More
+                        <img
+                          class="after-icon"
+                          src="assets/css/icons/Right-arrow.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                  <div class="blog">
+                    <a href="#">
+                      <div class="blog-img">
+                        <img
+                          src="assets/img/resources/latest-news-2.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="blog-content">
+                        <ul
+                          class="blog-info list-unstyled d-flex align-items-center m-0"
+                        >
+                          <li class="d-inline-flex">SEO</li>
+                          <li class="d-inline-flex align-items-center">
+                            <img src="assets/css/icons/Clock.svg" alt="" />
+                            <span>July 5, 2020</span>
+                          </li>
+                          <li class="d-inline-flex align-items-center">
+                            <img src="assets/css/icons/Profile.svg" alt="" />
+                            <span>By Diane Mccoy</span>
+                          </li>
+                        </ul>
+                        <h3 class="blog-title m-0">
+                          How to Maximize Your ROI Through Scientific SEM?
+                        </h3>
+                        <div class="blog-desc">
+                          Vulputate vitae pellentesque scelerisque luctus
+                          consequat mattis pellentesque dui odio...
+                        </div>
+                      </div>
+                    </a>
+                    <div class="read-more">
+                      <a href="#" class="btn-alternative d-inline-flex">
+                        <img
+                          class="before-icon"
+                          src="assets/css/icons/Right-arrow.svg"
+                          alt=""
+                        />
+                        Read More
+                        <img
+                          class="after-icon"
+                          src="assets/css/icons/Right-arrow.svg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="blog-main-right ">
+          <div class="blog-categories">
+            <h3 class="blog-categories-title">Blog Categories</h3>
+            <ul class="nav" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button
+                  class="tab-button active d-flex justify-content-between blog-category"
+                  id="home-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#home-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="home-tab-pane"
+                  aria-selected="true"
+                >
+                  <h5 class="blog-category-title">All</h5>
+                  <div class="blog-category-figure">25</div>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="tab-button d-flex justify-content-between blog-category"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#profile-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile-tab-pane"
+                  aria-selected="false"
+                >
+                  <h5 class="blog-category-title">Media & Press</h5>
+                  <div class="blog-category-figure">3</div>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="tab-button d-flex justify-content-between blog-category"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#profile-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile-tab-pane"
+                  aria-selected="false"
+                >
+                  <h5 class="blog-category-title">Ad Tips</h5>
+                  <div class="blog-category-figure">7</div>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="tab-button d-flex justify-content-between blog-category"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#profile-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile-tab-pane"
+                  aria-selected="false"
+                >
+                  <h5 class="blog-category-title">Marketing</h5>
+                  <div class="blog-category-figure">4</div>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="tab-button d-flex justify-content-between blog-category"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#profile-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile-tab-pane"
+                  aria-selected="false"
+                >
+                  <h5 class="blog-category-title">SEO</h5>
+                  <div class="blog-category-figure">9</div>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="tab-button d-flex justify-content-between blog-category"
+                  id="profile-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#profile-tab-pane"
+                  type="button"
+                  role="tab"
+                  aria-controls="profile-tab-pane"
+                  aria-selected="false"
+                >
+                  <h5 class="blog-category-title">Paid Search</h5>
+                  <div class="blog-category-figure">2</div>
+                </button>
+              </li>
+            </ul>
+          </div>
+          <div class="now-trending">
+            <h3 class="now-trending-title">Now Trending</h3>
+             <div class="trending-item">
+              <div class="d-flex align-items-start">
+                <div class="trending-img-wrapper">
+                 <div class="trending-img">
+                   <img src="assets/img/resources/trending-img.png" alt="" />
+                 </div>
+                </div>
+               <div class="trending-content">
+                 <div class="trending-date d-flex align-items-center">
+                   <img src="assets/css/icons/Clock.svg" alt="" /><span>July 5, 2020</span>
+                 </div>
+                 <h4 class="trending-title">
+                  <a href="#"> 5 Surprising Ways to Combine Content Marketing with PPC</a>
+                 </div>
+               </div>
+             </div>
+             <div class="trending-item">
+              <div class="d-flex align-items-start">
+                <div class="trending-img-wrapper">
+                 <div class="trending-img">
+                   <img src="assets/img/resources/trending-img2.png" alt="" />
+                 </div>
+                </div>
+               <div class="trending-content">
+                 <div class="trending-date d-flex align-items-center">
+                   <img src="assets/css/icons/Clock.svg" alt="" /><span>July 5, 2020</span>
+                 </div>
+                 <h4 class="trending-title">
+                  <a href="#"> 5 Surprising Ways to Combine Content Marketing with PPC</a>
+                 </div>
+               </div>
+             </div>
+             <div class="trending-item">
+              <div class="d-flex align-items-start">
+                <div class="trending-img-wrapper">
+                 <div class="trending-img">
+                   <img src="assets/img/resources/trending-img3.png" alt="" />
+                 </div>
+                </div>
+               <div class="trending-content">
+                 <div class="trending-date d-flex align-items-center">
+                   <img src="assets/css/icons/Clock.svg" alt="" /><span>July 5, 2020</span>
+                 </div>
+                 <h4 class="trending-title">
+                  <a href="#"> 5 Surprising Ways to Combine Content Marketing with PPC</a>
+                 </div>
+               </div>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of blog-main -->
+<!-- start of main footer -->
+<footer class="main-footer">
+  <div class="custom-container-fluid">
+    <div class="footer-main">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="footer-col">
+            <div class="logo-white">
+              <a href="index.html"><img src="assets/img/resources/logo-white.png" alt=""></a>
+            </div>
+            <div class="logo-description">
+              Createx SEO Agency is a full-service digital marketing agency. We help businesses make more money through
+              a wealth
+              of performance data and market research. We create science-based SEO strategies to empower our clients.
+            </div>
+            <ul class="social-media list-unstyled">
+              <li class="d-inline-block">
+                <a href="#">
+                  <img src="assets/css/icons/Facebook.svg" alt="">
+                </a>
+              </li>
+              <li class="d-inline-block">
+                <a href="#">
+                  <img src="assets/css/icons/Linked-In.svg" alt="">
+                </a>
+              </li>
+              <li class="d-inline-block">
+                <a href="#">
+                  <img src="assets/css/icons/Twitter.svg" alt="">
+                </a>
+              </li>
+              <li class="d-inline-block">
+                <a href="#">
+                  <img src="assets/css/icons/Instagram.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <div class="company">
+            <p class="company-title">Company</p>
+            <ul class="company-list list-unstyled">
+              <li>
+                <a href="#">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Case Studies
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Careers
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Contacts
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <div class="services">
+            <p class="services-title ">Services</p>
+            <ul class="services-list list-unstyled">
+              <li>
+                <a href="#">
+                  Social Media
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  SEO
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Research
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Content & PR
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Payed Traffic
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2">
+          <div class="contact-us">
+            <p class="contact-us-title">Contact us</p>
+            <ul class="contact-us-list list-unstyled">
+              <li>
+                <a href="tel:(405) 555-0128" class="d-flex align-items-center">
+                  <img src="assets/css/icons/iPhone.svg" alt="">
+                  (405) 555-0128
+                </a>
+              </li>
+              <li>
+                <a href="mailto:hello@createx.com" class="d-flex align-items-center">
+                  <img src="assets/css/icons/Mail.svg" alt="">
+                  <span>hello@createx.com</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="newsletter">
+            <p class="newsletter-title ">SIGN UP TO OUR NEWSLETTER</p>
+            <div class="newsletter-email position-relative">
+              <input class="input-sm custom-input" type="email" placeholder="Email address" required>
+              <button type="submit" class="position-absolute">
+                <img src="assets/css/icons/Right.svg" alt="">
+              </button>
+            </div>
+            <div class="newsletter-email-desc">
+              *Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom awards d-flex">
+      <div class="awards-img overflow-hidden">
+        <img src="assets/img/resources/award-1.png" alt="">
+      </div>
+      <div class="awards-img overflow-hidden">
+        <img src="assets/img/resources/award-2.png" alt="">
+      </div>
+      <div class="awards-img overflow-hidden">
+        <img src="assets/img/resources/award-3.png" alt="">
+      </div>
+      <div class="awards-img overflow-hidden">
+        <img src="assets/img/resources/award-4.png" alt="">
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/plugins.min.js"></script>
+<script>
+  wow = new WOW(
+    {
+      boxClass: 'wow',      // default
+      animateClass: 'animated', // default
+      offset: 0,          // default
+      mobile: true,       // default
+      live: true        // default
+    }
+  )
+  wow.init();
+</script>
+<script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
